@@ -2,7 +2,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Montserrat";
+  font-family: "WF Visual Sans Text",sans-serif;
+  font-family: 'Montserrat';
   transition: all 0.3s ease;
 }
 
@@ -228,6 +229,12 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    color: white;
+    line-height: 2rem;
+    height: 25rem;
+    border-bottom-left-radius: 70px;
+    border-top-right-radius: 70px;
+
 }
 
 .section-3-txt-container{
