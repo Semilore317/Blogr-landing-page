@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat";
+}
+
+body {
+  background: whitesmoke;
+}
+
+.alpha-wrapper {
+  width: 1280px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1rem;
+  padding-top: 0;
+}
+
+header {
+  color: white;
+  font-weight: 500;
+  width: 100%;
+  height: 15rem;
+  padding: 2rem;
+  position: relative;
+  background: url("./../images/bg-pattern-intro-desktop.svg");
+  background-size: 100%;
+  background-position: center;
+  position: relative;
+}
+header::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0.95;
+  background: linear-gradient(45deg, #ff8e70, #ff4359);
+}
+header nav, header nav div, header nav ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  z-index: 3;
+}
+header nav div, header nav ul {
+  gap: 1rem;
+}
+header nav ul {
+  gap: 4rem;
+  list-style: none;
+}
+header nav ul li {
+  cursor: pointer;
+}
+header nav ul h1 {
+  cursor: pointer;
+}
+header .login {
+  cursor: pointer;
+}
+header .sign-up {
+  background: white;
+  padding: 0.8rem;
+  border-radius: 50px;
+  color: #ff4359;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease-in;
+}
+header .sign-up:hover {
+  background: rgba(225, 225, 225, 0.5);
+  color: white;
+}/*# sourceMappingURL=index.css.map */
