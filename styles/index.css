@@ -209,6 +209,7 @@ header .sign-up:hover {
 }
 
 .section-3 {
+  margin-top: 5rem;
   background: #3b3e5f;
   display: flex;
   align-items: center;
@@ -222,4 +223,68 @@ header .sign-up:hover {
 
 .section-3-txt-container {
   width: 50%;
+}
+
+.section-4 {
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.section-4 img {
+  height: 40rem;
+  margin-left: -10rem;
+}
+.section-4 div {
+  width: 50%;
+  height: 100%;
+  line-height: 1.5rem;
+}
+
+footer {
+  margin-top: 5rem;
+  border-top-right-radius: 100px;
+  bottom: 0;
+  width: 100%;
+  height: 25rem;
+  background: #24242c;
+  padding: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer table {
+  table-layout: fixed;
+  border-collapse: collapse;
+  padding: 1rem;
+  text-align: left;
+  color: #e2e3e5;
+}
+footer table td, footer table th {
+  padding: 1rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  cursor: pointer;
+  width: 4rem;
+}
+footer table td:hover, footer table th:hover {
+  text-decoration: underline;
+}
+
+.footer-wrapper {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+}
+.footer-wrapper div {
+  width: 30%;
+}
+
+.attribution {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
 }/*# sourceMappingURL=index.css.map */
