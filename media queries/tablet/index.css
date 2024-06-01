@@ -2,4 +2,26 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+@media screen and (max-width: 1280px) {
+  .alpha-wrapper {
+    width: 100%;
+    overflow: hidden;
+    padding: 0;
+  }
+  section {
+    padding: 3rem;
+  }
+  .section-0 {
+    padding: 0;
+  }
+  .section-4 img {
+    display: block;
+    width: 70%;
+    height: 70%;
+  }
+  .section-2-h1 {
+    margin-bottom: 5rem;
+  }
 }/*# sourceMappingURL=index.css.map */

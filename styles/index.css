@@ -8,7 +8,7 @@
 }
 
 body {
-  background: whitesmoke;
+  background: linear-gradient(45deg, whitesmoke, white);
 }
 
 .alpha-wrapper {
