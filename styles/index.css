@@ -53,6 +53,9 @@ header nav ul {
   justify-content: space-around;
   z-index: 3;
 }
+header nav img {
+  z-index: inherit;
+}
 header nav div,
 header nav ul {
   gap: 1rem;
@@ -67,6 +70,12 @@ header nav ul li {
 }
 header nav ul h1 {
   cursor: pointer;
+}
+header .wrapper {
+  width: 60%;
+}
+header .burger-div {
+  display: none;
 }
 header .login {
   cursor: pointer;

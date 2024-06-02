@@ -16,6 +16,13 @@
   .section-0 {
     padding: 0;
   }
+  .section-0-btn-div {
+    display: grid;
+    place-content: center;
+  }
+  .section-0-wrapper {
+    width: 15rem;
+  }
   .section-4 img {
     display: block;
     width: 70%;

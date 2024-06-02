@@ -57,7 +57,9 @@ header {
         align-items: center;
         justify-content: space-around;
         z-index: 3;
-
+        img{
+            z-index: inherit;
+        }
         div,
         ul {
             @extend nav;
@@ -77,6 +79,14 @@ header {
                 cursor: pointer;
             }
         }
+    }
+    
+    .wrapper{
+        width: 60%;
+    }
+
+    .burger-div{
+        display: none;
     }
 
     .login {
