@@ -8,4 +8,6 @@ const burgerDiv3 = document.querySelector(".burger-div-3");
 
 burger.addEventListener("click", () => {
   burgerDiv1.style.transform = "rotate(45deg)";
+  burgerDiv2.style.display = "none";
+  burgerDiv3.style.transform = "rotate(45deg)";
 });
