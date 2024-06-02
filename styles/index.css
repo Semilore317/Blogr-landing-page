@@ -32,6 +32,11 @@ header {
   background-position: center;
   position: relative;
   border-bottom-left-radius: 100px;
+  /*
+      .burger-div{
+          display: none;
+      }
+  */
 }
 header::after {
   content: "";
@@ -73,9 +78,6 @@ header nav ul h1 {
 }
 header .wrapper {
   width: 60%;
-}
-header .burger-div {
-  display: none;
 }
 header .login {
   cursor: pointer;
