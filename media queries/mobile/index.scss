@@ -26,7 +26,7 @@
     }
     header{
         height: 90vh;
-        padding: 0.2rem;
+        padding: 1rem;
         nav{
             flex-direction: column;
             padding: 2rem;
@@ -40,7 +40,8 @@
         .wrapper{
             background: white;
             //opacity: 0.5;
-            display: flex;
+            //display: flex;
+            display: none;
             flex-direction: column;
             width: 5rem;
             height: 80vh;
@@ -64,6 +65,33 @@
                 width: 8rem;
                 height: 2rem;
                 color: black;
+            }
+        }
+    }
+
+    .section-0{
+        h1{
+            margin: 0.2rem;
+        }
+        p{
+            font-size: 1.2rem;
+            font-weight: 300;
+        }
+    }
+    .section-0-btn-div{
+        width: 20rem;
+        height: 5rem;
+        padding: 0;
+        p{
+            font-size: 0.7rem;
+        }
+        .section-0-btn-1,
+        .section-0-btn-2{
+            width: 10rem;
+            height: 3rem;
+            p{
+                font-weight: 600;
+                font-size: 0.8rem;
             }
         }
     }
