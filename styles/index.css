@@ -230,10 +230,29 @@ header .sign-up:hover {
   height: 25rem;
   border-bottom-left-radius: 70px;
   border-top-right-radius: 70px;
+  padding: 15rem;
+  gap: 10rem;
 }
 
 .section-3-txt-container {
   width: 50%;
+}
+
+.section-3-img-wrapper {
+  display: flex;
+  position: relative;
+}
+.section-3-img-wrapper img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translate(-50%, -50%);
+}
+
+.img-1 {
+  z-index: -1;
+  width: 50rem;
+  height: 50rem;
 }
 
 .section-4 {

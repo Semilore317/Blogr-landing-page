@@ -79,6 +79,7 @@
         }
     }
     .section-0-btn-div{
+        margin-top: 3rem;
         width: 20rem;
         height: 5rem;
         padding: 0;
@@ -93,6 +94,36 @@
                 font-weight: 600;
                 font-size: 0.8rem;
             }
+        }
+    }
+    .section-2{
+        padding: 1rem;
+        color: rgb(19, 19, 19);
+        .section-2-h1{
+            padding: 3rem 0rem;
+        }
+        .section-2-container{
+            flex-direction: column-reverse;
+            width: 100%;
+            .section-2-img-container{
+                width: 100%;
+                display: grid;
+                place-content: center;
+                img{
+                    content: url('./../../images/illustration-editor-mobile.svg');
+                }
+            }
+            .section-2-txt-container{
+                width: 100%;
+                text-align: center;
+            }
+        }
+    }
+
+    .section-3{
+        flex-direction: column-reverse;
+        .section-3-txt-container{
+            width: 100%;
         }
     }
 }
