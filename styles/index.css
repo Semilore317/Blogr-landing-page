@@ -238,17 +238,18 @@ header .sign-up:hover {
   width: 50%;
 }
 
-.section-3-img-wrapper {
-  display: flex;
-  position: relative;
-}
-.section-3-img-wrapper img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  transform: translate(-50%, -50%);
-}
+/*.section-3-img-wrapper {
+    display: flex;
+    position: relative;
 
+    img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        transform: translate(-50%, -50%);
+    }
+}
+*/
 .img-1 {
   z-index: -1;
   width: 50rem;
@@ -292,14 +293,16 @@ footer table {
   text-align: left;
   color: #e2e3e5;
 }
-footer table td, footer table th {
+footer table td,
+footer table th {
   padding: 1rem;
   padding-left: 5rem;
   padding-right: 5rem;
   cursor: pointer;
   width: 4rem;
 }
-footer table td:hover, footer table th:hover {
+footer table td:hover,
+footer table th:hover {
   text-decoration: underline;
 }
 
