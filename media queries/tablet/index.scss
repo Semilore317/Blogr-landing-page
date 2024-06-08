@@ -1,36 +1,42 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-@media screen and (max-width: 1280px){
-    .alpha-wrapper{
+@media screen and (max-width: 1280px) {
+    .alpha-wrapper {
         width: 100%;
         overflow: hidden;
         padding: 0;
     }
-    section{
+
+    section {
         padding: 3rem;
     }
-    .section-0{
+
+    .section-0 {
         padding: 0;
     }
-    .section-0-btn-div{
+
+    .section-0-btn-div {
         display: grid;
         place-content: center;
     }
-    .section-0-wrapper{
+
+    .section-0-wrapper {
         width: 15rem;
     }
-    .section-4{
-        img{
+
+    .section-4 {
+        img {
             display: block;
             width: 100%;
             height: 100%;
         }
     }
-    .section-2-h1{
+
+    .section-2-h1 {
         margin-bottom: 5rem;
     }
 
