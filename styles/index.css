@@ -273,14 +273,16 @@ footer table {
   text-align: left;
   color: #e2e3e5;
 }
-footer table td, footer table th {
+footer table td,
+footer table th {
   padding: 1rem;
   padding-left: 5rem;
   padding-right: 5rem;
   cursor: pointer;
   width: 4rem;
 }
-footer table td:hover, footer table th:hover {
+footer table td:hover,
+footer table th:hover {
   text-decoration: underline;
 }
 
