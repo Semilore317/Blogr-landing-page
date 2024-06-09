@@ -139,6 +139,10 @@ header .sign-up:hover {
   text-align: center;
 }
 
+.growAudience {
+  margin-top: 2rem;
+}
+
 .section-0-btn-div {
   margin-top: 1rem;
   width: 18%;
@@ -167,6 +171,7 @@ header .sign-up:hover {
   display: grid;
   place-content: center;
   color: #ff4359;
+  cursor: pointer;
 }
 .section-0-btn-1:hover {
   background: rgba(225, 225, 225, 0.5);
@@ -318,6 +323,12 @@ footer {
   flex-direction: row;
   align-items: flex-start;
   gap: 10rem;
+}
+.table-section div h3, .table-section div li {
+  cursor: pointer;
+}
+.table-section div h3:hover, .table-section div li:hover {
+  text-decoration: underline;
 }
 
 .table-section-1 .table-section-2 .table-section-3 {

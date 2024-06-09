@@ -157,9 +157,13 @@ header {
         margin-top: 3rem;
     }
 
-    p {
+    p{
         text-align: center;
     }
+}
+
+.growAudience{
+    margin-top: 2rem;
 }
 
 .section-0-btn-div {
@@ -191,7 +195,7 @@ header {
     display: grid;
     place-content: center;
     color: #ff4359;
-
+    cursor: pointer;
     &:hover {
         background: rgba(225, 225, 225, 0.5);
         color: white;
@@ -365,6 +369,14 @@ footer {
 
     gap: 10rem;
     //padding: 5rem;
+    div{
+        h3,li{
+            cursor: pointer;
+            &:hover{
+                text-decoration: underline;
+            }
+        }
+    }
 }
 
 .table-section-1
