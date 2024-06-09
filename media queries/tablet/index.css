@@ -76,6 +76,14 @@
     left: 0;
     transform: translate(-50%,-50%);*/
   }
+  .section-4 {
+    width: 50%;
+    margin-left: 0;
+    height: 30rem;
+  }
+  .section-4-txt-container {
+    width: 50%;
+  }
   section {
     padding: 1rem;
     font-size: 0.8rem;
