@@ -199,8 +199,15 @@
             content: url('./../../images/illustration-laptop-mobile.svg');
         }
     }
-}
 
-.literally-anyone-else{
-    fuck you: fuck you too;
+    footer{
+        height: 100vh;
+    }
+    td{
+        display: block;
+    }
+    .bold-table-text{
+        font-weight: 600;
+        font-size: 1.5rem;
+    }
 }
