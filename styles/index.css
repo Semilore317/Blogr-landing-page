@@ -9,6 +9,7 @@
 
 body {
   background: linear-gradient(45deg, whitesmoke, white);
+  overflow-x: hidden;
 }
 
 .alpha-wrapper {
@@ -18,6 +19,7 @@ body {
   margin-right: auto;
   padding: 1rem;
   padding-top: 0;
+  overflow-x: hidden;
 }
 
 header {

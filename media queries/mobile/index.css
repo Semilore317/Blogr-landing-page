@@ -1,4 +1,4 @@
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 720px) {
   * {
     margin: 0;
     padding: 0;
@@ -171,7 +171,8 @@
     font-size: 1.5rem;
   }
   footer {
-    height: 100vh;
+    height: -moz-max-content;
+    height: max-content;
   }
   .footer-wrapper {
     display: flex;
