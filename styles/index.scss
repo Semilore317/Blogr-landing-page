@@ -9,10 +9,7 @@
 
 body {
     background: linear-gradient(45deg, whitesmoke, white);
-<<<<<<< HEAD
-=======
     overflow-x: hidden;
->>>>>>> b70d771
 }
 
 .alpha-wrapper {
@@ -333,9 +330,7 @@ footer {
     align-items: center;
     justify-content: center;
 
-<<<<<<< HEAD
-    table {
-=======
+
     /*table {
 >>>>>>> b70d771
         table-layout: fixed;
@@ -353,8 +348,7 @@ footer {
             width: 4rem;
 
             &:hover {
-<<<<<<< HEAD
-=======
+
                 text-decoration: underline;
             }
         }*/
@@ -404,29 +398,30 @@ footer {
         h3,li{
             cursor: pointer;
             &:hover{
->>>>>>> b70d771
+
                 text-decoration: underline;
             }
         }
     }
 }
 
-<<<<<<< HEAD
+
 .footer-wrapper {
     width: 80%;
-
+    text-align: center;
     div {
-        width: 30%;
+        width: 50%;
     }
 
     display: flex;
     flex-direction: row;
-=======
+    align-items: center;
+
 .table-section-1
 .table-section-2
 .table-section-3{
     width: 15rem;
->>>>>>> b70d771
+
 
 }
 .attribution {
@@ -435,4 +430,4 @@ footer {
     margin-left: auto;
     text-align: center;
     background: #24242c;
-}
+}}

@@ -11,6 +11,7 @@
   }
   .alpha-wrapper {
     width: 100%;
+    padding: 0;
   }
   .burger-div {
     display: flex;
@@ -138,6 +139,7 @@
     text-align: center;
   }
   .section-2 .section-2-container div img {
+    margin-top: 3rem;
     width: 100%;
     content: url("./../../images/illustration-editor-mobile.svg");
   }

@@ -292,47 +292,27 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
-<<<<<<< HEAD
-}
-footer table {
-  table-layout: fixed;
-  border-collapse: collapse;
-  padding: 1rem;
-  text-align: left;
-  color: #e2e3e5;
-}
-footer table td,
-footer table th {
-  padding: 1rem;
-  padding-left: 5rem;
-  padding-right: 5rem;
-  cursor: pointer;
-  width: 4rem;
-}
-footer table td:hover,
-footer table th:hover {
-  text-decoration: underline;
-=======
   /*table {
-      table-layout: fixed;
-      border-collapse: collapse;
-      padding: 1rem;
-      text-align: left;
-      color: #e2e3e5;
-
-      td,
-      th {
+  >>>>>>> b70d771
+          table-layout: fixed;
+          border-collapse: collapse;
           padding: 1rem;
-          padding-left: 5rem;
-          padding-right: 5rem;
-          cursor: pointer;
-          width: 4rem;
+          text-align: left;
+          color: #e2e3e5;
 
-          &:hover {
-              text-decoration: underline;
-          }
-      }*/
->>>>>>> b70d771
+          td,
+          th {
+              padding: 1rem;
+              padding-left: 5rem;
+              padding-right: 5rem;
+              cursor: pointer;
+              width: 4rem;
+
+              &:hover {
+
+                  text-decoration: underline;
+              }
+          }*/
 }
 
 .footer-wrapper {
@@ -375,11 +355,20 @@ footer table th:hover {
   text-decoration: underline;
 }
 
-.table-section-1 .table-section-2 .table-section-3 {
+.footer-wrapper {
+  width: 80%;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.footer-wrapper div {
+  width: 50%;
+}
+.footer-wrapper .table-section-1 .table-section-2 .table-section-3 {
   width: 15rem;
 }
-
-.attribution {
+.footer-wrapper .attribution {
   display: block;
   margin-right: auto;
   margin-left: auto;
