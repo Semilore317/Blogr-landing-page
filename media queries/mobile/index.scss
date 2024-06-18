@@ -302,19 +302,16 @@
             flex-direction: column;
             color: black;
         }
-
         .last-div {
             display: flex;
             flex-direction: column;
         }
-
         .sign-up {
             width: 8rem;
             background: linear-gradient(45deg, #ff8e70, #ff4359);
             color: white;
             //comment
         }
-
         .login {
             width: 8rem;
             height: 2rem;
@@ -327,6 +324,14 @@
         transition: all 0.3s ease;
         animation: header-slide 0.3s ease;
 
+    }
+    @keyframes header-slide {
+        from{
+            height: 90vh;
+        }
+        to{
+            height: max-content;
+        }   
     }
 }
 

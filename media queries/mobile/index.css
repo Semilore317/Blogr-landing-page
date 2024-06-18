@@ -267,4 +267,13 @@
     transition: all 0.3s ease;
     animation: header-slide 0.3s ease;
   }
+  @keyframes header-slide {
+    from {
+      height: 90vh;
+    }
+    to {
+      height: -moz-max-content;
+      height: max-content;
+    }
+  }
 }/*# sourceMappingURL=index.css.map */
