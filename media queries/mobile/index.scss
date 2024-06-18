@@ -52,13 +52,14 @@
 
         .wrapper {
             background: white;
-            //opacity: 0.5;
-            display: none;
-
+            opacity: 0;
+            //display: none;
+            display: flex;
 
             flex-direction: column;
             width: 5rem;
-            height: 80vh;
+            //height: 80vh;
+            height: 0vh;
             width: 100%;
             border-radius: 10px;
 
@@ -285,10 +286,11 @@
 
     }
 
-    .wrapper-toggle-class {
+   header .wrapper-toggle-class {
         background: white;
-        //opacity: 0.5;
+        opacity: 1git;
         display: flex;
+        height: 80vh;
 
 
         flex-direction: column;

@@ -46,10 +46,11 @@
   }
   header .wrapper {
     background: white;
-    display: none;
+    opacity: 0;
+    display: flex;
     flex-direction: column;
     width: 5rem;
-    height: 80vh;
+    height: 0vh;
     width: 100%;
     border-radius: 10px;
   }
@@ -233,30 +234,32 @@
     height: 70%;
     gap: 5rem;
   }
-  .wrapper-toggle-class {
+  header .wrapper-toggle-class {
     background: white;
+    opacity: 1git;
     display: flex;
+    height: 80vh;
     flex-direction: column;
     width: 5rem;
     height: 80vh;
     width: 100%;
     border-radius: 10px;
   }
-  .wrapper-toggle-class ul {
+  header .wrapper-toggle-class ul {
     display: flex;
     flex-direction: column;
     color: black;
   }
-  .wrapper-toggle-class .last-div {
+  header .wrapper-toggle-class .last-div {
     display: flex;
     flex-direction: column;
   }
-  .wrapper-toggle-class .sign-up {
+  header .wrapper-toggle-class .sign-up {
     width: 8rem;
     background: linear-gradient(45deg, #ff8e70, #ff4359);
     color: white;
   }
-  .wrapper-toggle-class .login {
+  header .wrapper-toggle-class .login {
     width: 8rem;
     height: 2rem;
     color: black;
