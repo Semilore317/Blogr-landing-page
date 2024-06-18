@@ -1,5 +1,6 @@
-const connectTab = document.querySelector(".connect-after-div");
-const connectTabP = document.querySelectorAll(".connect-after-div P");
+//MAKE MOBILE NAV BURGER WORK
+const popUpWrapper = document.querySelector(".wrapper");
+const header = document.querySelector("header");
 
 //mobile nav animation
 const burger = document.querySelector(".burger-div");
@@ -7,16 +8,13 @@ const burgerDiv1 = document.querySelector(".burger-div-1");
 const burgerDiv2 = document.querySelector(".burger-div-2");
 const burgerDiv3 = document.querySelector(".burger-div-3");
 
-//event listener!
-//burger.addEventListener("dbclick", burgerFunction());
-//for some reason it's clicking itself, so i'm using onClick()
-
 //CTA - Call to Action dipshit
 function burgerFunction(){
-    //use toggle
-    console.log('yeahh');
-    connectTab.style.opacity = '1.0';
-    connectTabP.style.opacity = '1.0';
-    burger.style.backgroundColor = "red";
+    //popUp.style.display = 'flex';
+    header.classList.toggle('header-toggle-class');
+    popUpWrapper.classList.toggle('wrapper-toggle-class');
     
 }
+
+
+//MAKE some other shit, i think hover or some other gay shit
