@@ -279,4 +279,10 @@
       height: max-content;
     }
   }
+  .footer-wrapper {
+    align-items: center;
+  }
+  .footer-wrapper div {
+    width: auto;
+  }
 }/*# sourceMappingURL=index.css.map */
